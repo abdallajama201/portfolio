@@ -1,0 +1,69 @@
+@import '../../variables.scss';
+
+.icon {
+  color: $white;
+  transition: color 200ms ease;
+}
+
+.icon:hover {
+  color: $lightgray;
+  transition: color 200ms ease;
+}
+
+.Terminal1 {
+  background: #8c8c8c;
+  height: 80px;
+  border-radius: 10px 10px 0 0;
+  margin: 50px 0;
+  text-align: center;
+  margin-bottom: 0px;
+  color: $white;
+  font-family: Courier New, Courier, monospace;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px 0 0 0;
+}
+
+.Terminal2 {
+  background-color: #27242f;
+  margin: 20px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 500px;
+}
+
+.Terminal3 {
+  background: #8c8c8c;
+  padding: 10px;
+  height: 80px;
+  border-radius: 0 0 10px 10px;
+  margin: 50px 0;
+  text-align: center;
+  margin-top: 0px;
+  color: #8c8c8c;
+}
+
+.b0 {
+  background-image: url(../../img/tech-blog.png);
+  background-size: cover;
+}
+.b1 {
+  background-image: url(../../img/weather-dashboard.png);
+  background-size: cover;
+}
+.b2 {
+  background-image: url(../../img/pet-playdate.png);
+  background-size: cover;
+}
+.b3 {
+  background-image: url(../../img/coding-photo-1.jpg);
+  background-size: cover;
+}
+.b4 {
+  background-image: url(../../img/coding-photo-2.jpg);
+  background-size: cover;
+}
+.b5 {
+  background-image: url(../../img/coding-photo-3.jpg);
+  background-size: cover;
+}
