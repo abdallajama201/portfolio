@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.resume {
+  font-family: Courier New, Courier, monospace;
+  font-size: 108px;
+  font-weight: 900;
+  text-decoration: none;
+  color: $dark;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+}
+
