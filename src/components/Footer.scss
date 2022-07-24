@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.icon {
+  color: $dark;
+  transition: color 200ms ease;
+}
+
+.icon:hover {
+  color: $lightgray;
+  transition: color 200ms ease;
+}

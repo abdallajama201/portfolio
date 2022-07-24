@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.choices {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.active {
+  background: linear-gradient(to right, rgb(81, 46, 251), rgb(88, 14, 166));
+  border: solid 5px black;
+  
+}
+
+.inactive {
+  background: linear-gradient(to right, rgb(81, 46, 251), rgb(88, 14, 166));
+}
+
+.spinner {
+  animation: spin 16s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate( 0.0deg) }
+  100% { transform: rotate(360.0deg) }
+}
