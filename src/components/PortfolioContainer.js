@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import Navigation from './Navigation';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
+import Header from './Header'
+import Footer from './Footer';
+import Style from './PortfolioContainer.scss'
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
-
+  const [currentPage, setCurrentPage] = useState('About Me');
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Conact') {
+    if (currentPage === 'Contact') {
       return <Contact />;
     }
     if (currentPage === 'Resume') {
@@ -24,9 +25,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div className='backDrop'>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
+      <Footer />
     </div>
   );
 }
