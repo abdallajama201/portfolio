@@ -9,13 +9,13 @@ export default function footerLinks({currentPage, handlePageChange}) {
     <div className="column justify-content-right">
     <div className="row justify-content-center my-5">
       {links.map((link, index) => 
-        <a key={index} href={"#"+link} className={`col-2 choices bounce ${currentPage === link ? 'active' : 'inactive'}`} onClick={() => handlePageChange(link)}>{link}</a>)}
+        <a key={index} href={"#"+link} className={`col-8 col-lg-2 choices bounce ${currentPage === link ? 'active' : 'inactive'}`} onClick={() => handlePageChange(link)}>{link}</a>)}
     </div>
-    <div className="row justify-content-around">
-        <div className='col-1'>
+    <div className="row justify-content-center">
+        <div className='col-8 col-lg-4'>
           <img src={portrait} className='portrait' alt='portrait'></img>
         </div>
-        <TokenOutlinedIcon className='spinner col-1' sx={{ fontSize: 240 }} />
+        <TokenOutlinedIcon className='spinner col-12 col-lg-4' sx={{ fontSize: 240 }} />
     </div>
     </div>
   );

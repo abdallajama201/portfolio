@@ -5,7 +5,6 @@ import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
 import Header from './Header'
 import Footer from './Footer';
-import Style from './PortfolioContainer.scss'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About Me');
@@ -25,7 +24,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='backDrop'>
+    <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
       <Footer />
