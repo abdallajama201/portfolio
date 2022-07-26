@@ -25,9 +25,9 @@ let deployed = [
 
 export default function Portfolio() {
   return (
-    <div class="row justify-content-center">
+    <div className="row justify-content-center">
       {projectNames.map((name, index) => 
-      <div class="col-6">
+      <div key={index} className="col-12 col-md-9 col-lg-6">
         <div className="column justify-content-center">
           <div className='Terminal1 mx-5'>{name}</div>
           <div className={`Terminal2 b${index} mx-5`}></div>
