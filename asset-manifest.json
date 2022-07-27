@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.129b2519.css",
+    "main.js": "/portfolio/static/js/main.6acee8dc.js",
+    "static/media/coding-photo-2.jpg": "/portfolio/static/media/coding-photo-2.861ddee1058b23ed1a22.jpg",
+    "static/media/coding-photo-1.jpg": "/portfolio/static/media/coding-photo-1.77663d10b2ed61d235f4.jpg",
+    "static/media/coding-photo-3.jpg": "/portfolio/static/media/coding-photo-3.645da6999d5b0b11ee31.jpg",
+    "static/media/pet-playdate.png": "/portfolio/static/media/pet-playdate.f45478e1c44c9a783727.png",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.db686447ba70cbcb14b2.png",
+    "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.f246936183d0621227ad.png",
+    "static/media/tech-blog.png": "/portfolio/static/media/tech-blog.bd871ebe652c32608d2e.png",
+    "index.html": "/portfolio/index.html",
+    "main.129b2519.css.map": "/portfolio/static/css/main.129b2519.css.map",
+    "main.6acee8dc.js.map": "/portfolio/static/js/main.6acee8dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.129b2519.css",
+    "static/js/main.6acee8dc.js"
+  ]
+}
