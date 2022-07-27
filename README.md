@@ -7,7 +7,7 @@ Welcome to the repository for my portfolio. This is a place to highlight and sha
 
 ## Usage
 
-The app is available on the open web and can be viewed at
+The app is available on the open web and can be viewed at https://abdallajama201.github.io/portfolio
 
 ## License
 
