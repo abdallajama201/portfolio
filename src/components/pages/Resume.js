@@ -8,7 +8,7 @@ let clouds = ['Heroku', 'JawsDB', 'MongoDB Atlas'];
 export default function Resume() {
   return (
     <div>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center my-5">
         <a href="https://github.com/abdallajama201/resume" target="_blank" className='resume bounce col-3'>Resume</a>
       </div>
       <div className="column justify-content-center">
