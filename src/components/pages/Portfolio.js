@@ -5,9 +5,10 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
-let projectNames = ['Tech Blog', 'Weather Dashboard', 'Pet Playdate Finder', 'ECommerce Backend', 'Social Network API', 'README Generator'];
+let projectNames = ['Tech Blog', 'Hungry Time','Weather Dashboard', 'Pet Playdate Finder', 'ECommerce Backend', 'Social Network API', 'README Generator'];
 let github = [
   'https://github.com/abdallajama201/Tech-Blog',
+  'https://github.com/Wingky1208/Menu-App',
   'https://github.com/abdallajama201/Weather-Dashboard',
   'https://github.com/abdallajama201/pet-playdate',
   'https://github.com/abdallajama201/E-commerce-Back-End',
@@ -16,6 +17,7 @@ let github = [
 ]
 let deployed = [
   'https://tech-blog-abdalla.herokuapp.com/',
+  'https://hungrier-time.herokuapp.com/',
   'https://abdallajama201.github.io/Weather-Dashboard/',
   'https://pet-playdate-app.herokuapp.com/',
   'https://github.com/abdallajama201/E-commerce-Back-End',
