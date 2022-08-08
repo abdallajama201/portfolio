@@ -2,7 +2,7 @@ import TokenOutlinedIcon from '@mui/icons-material/TokenOutlined';
 import Style from './Header.scss'
 import portrait from '../img/portrait.png'
 
-let links = ["About Me","Portfolio","Contact","Resume"];
+let links = ["About Me","Portfolio","Resume"];
 
 export default function footerLinks({currentPage, handlePageChange}) {
   return (
