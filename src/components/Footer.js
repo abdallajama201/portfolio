@@ -12,7 +12,7 @@ export default function footerLinks() {
           </a>
       </div>
       <div className=" col-lg-1 col-2">
-          <a href="https://www.linkedin.com/in/abdalla-jama-118a06237/" style={{color: "inherit"}}>
+          <a href="https://www.linkedin.com/in/abdalla-jama/" style={{color: "inherit"}}>
             <LinkedInIcon className='icon bounce' sx={{ fontSize: 80 }} />
           </a>
       </div>
