@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.498f164a.css",
-    "main.js": "/portfolio/static/js/main.a0dc73ab.js",
+    "main.js": "/portfolio/static/js/main.a0b3f0ee.js",
     "static/media/coding-photo-2.jpg": "/portfolio/static/media/coding-photo-2.861ddee1058b23ed1a22.jpg",
     "static/media/coding-photo-1.jpg": "/portfolio/static/media/coding-photo-1.77663d10b2ed61d235f4.jpg",
     "static/media/coding-photo-3.jpg": "/portfolio/static/media/coding-photo-3.645da6999d5b0b11ee31.jpg",
@@ -12,10 +12,10 @@
     "static/media/tech-blog.png": "/portfolio/static/media/tech-blog.bd871ebe652c32608d2e.png",
     "index.html": "/portfolio/index.html",
     "main.498f164a.css.map": "/portfolio/static/css/main.498f164a.css.map",
-    "main.a0dc73ab.js.map": "/portfolio/static/js/main.a0dc73ab.js.map"
+    "main.a0b3f0ee.js.map": "/portfolio/static/js/main.a0b3f0ee.js.map"
   },
   "entrypoints": [
     "static/css/main.498f164a.css",
-    "static/js/main.a0dc73ab.js"
+    "static/js/main.a0b3f0ee.js"
   ]
 }
