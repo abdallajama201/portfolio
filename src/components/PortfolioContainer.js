@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
 import Header from './Header'
