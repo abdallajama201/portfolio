@@ -10,6 +10,11 @@
   transition: color 200ms ease;
 }
 
+#cardCustom {
+  height: min-content;
+  background-color: var(--lightColor);
+}
+
 .Terminal1 {
   background: #8c8c8c;
   height: 80px;

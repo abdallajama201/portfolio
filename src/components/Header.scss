@@ -1,5 +1,9 @@
 @import '../variables.scss';
 
+a {
+  text-decoration: none;
+}
+
 .choices {
   width: 300px;
   height: 60px;
@@ -29,7 +33,7 @@
 
   &:hover {
     animation-play-state: paused;
-    color: $lightgray
+    color: var(--accent2)
   }
 }
 
@@ -98,7 +102,7 @@ button {
   perspective: 230px;
 }
 .btn-12 span {
-  color: var(--darkColor);
+  color: var(--backColor);
   background-color: var(--accent1);
   text-align: center;
   padding-top: 10px;
@@ -121,7 +125,7 @@ button {
   transition: all .3s;
 }
 .btn-12 span:nth-child(1) {
-  background-color: var(--accent2);
+  background-color: var(--accent3);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   transform: rotateX(90deg);
@@ -143,8 +147,8 @@ button {
   transform: rotateX(0deg);
 }
 .btn-12:hover span:nth-child(2) {
-  background: var(--accent2);
-  color: var(--accent2);
+  background: var(--accent3);
+  color: var(--accent3);
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);

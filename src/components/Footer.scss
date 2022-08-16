@@ -1,11 +1,11 @@
 @import '../variables.scss';
 
 .icon {
-  color: $dark;
+  color: var(--accent2);
   transition: color 200ms ease;
 }
 
 .icon:hover {
-  color: $lightgray;
+  color: var(--accent1);
   transition: color 200ms ease;
 }
