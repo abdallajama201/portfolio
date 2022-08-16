@@ -1,11 +1,11 @@
 @import '../../variables.scss';
 
-.icon {
-  color: $white;
+.icon1 {
+  color: black;
   transition: color 200ms ease;
 }
 
-.icon:hover {
+.icon1:hover {
   color: $lightgray;
   transition: color 200ms ease;
 }
@@ -70,4 +70,8 @@
 .b6 {
   background-image: url(../../img/coding-photo-3.jpg);
   background-size: cover;
+}
+
+h3 {
+  text-align: center;
 }

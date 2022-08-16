@@ -9,19 +9,8 @@ export default function footerLinks({currentPage, handlePageChange}) {
     <div className="column">
     <div className="row justify-content-center">
       {links.map((link, index) => 
-        <a key={index} href={"#"+link} className={`col-8 col-lg-2 my-5 choices ${currentPage === link ? 'active' : 'inactive'}`} onClick={() => handlePageChange(link)}>{link}</a>)}
-    </div>
-
-
-
-    <div className="row justify-content-center">
-      {links.map((link, index) => 
     <button key={index} href={"#"+link} class={`custom-btn btn-12 col-8 col-lg-2 my-5 ${currentPage === link ? 'active' : 'inactive'}`} onClick={() => handlePageChange(link)}><span>{link}</span><span>{link}</span></button>)}
     </div>
-    
-
-
-
     <div className="row justify-content-center">
         <div className='col-8 col-lg-4'>
           <img src={portrait} className='portrait' alt='portrait'></img>
