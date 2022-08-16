@@ -1,10 +1,17 @@
 @import "bootstrap/scss/bootstrap";
 
+body {
+  padding: 0;
+}
+
+
 :root {
-  --darkColor: #332f1e;
-  --lightColor: #ffffff;
-  --accent1: #f0c89a;
-  --accent2: #b1aa7f;
+  --backColor: #f9fbfd;
+  --lightColor: #d5dbe1;
+  --darkColor: #240d06;
+  --accent1: #1e2baf;
+  --accent2: #fc4538;
+  --accent3: #22d4a7;
 }
 
 
@@ -20,7 +27,7 @@ $lightgray: #c9c9c9;
 $transition: all 250ms ease;
 
 .topTerminal {
-  background: #8c8c8c;
+  background: var(--darkColor);
   height: 80px;
   padding: 10px;
   border-radius: 10px 10px 0 0;
@@ -34,14 +41,14 @@ $transition: all 250ms ease;
 }
 
 .botTerminal {
-  background-color: #27242f;
+  background-color: var(--lightColor);
+  color: var(--darkColor);
   padding: 10px 40px;
   border-radius: 0 0 10px 10px;
   margin: 20px 0;
   text-align: center;
   margin-top: 0px;
   font-family: Courier New, Courier, monospace;
-  color: $white;
   font-size: 24px;
   text-align: justify;
 }

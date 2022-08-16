@@ -71,51 +71,21 @@ let deployed = [
 export default function Portfolio() {
   return (
     <div className="row justify-content-center">
-
-{projectNames.map((name, index) =>
-<div className="card cardCustom col-10 col-lg-4 m-4 p-0">
-  <img className="card-img-top" src={images[index]} alt="Card image cap"></img>
-  <div className="card-body">
-    <h3 className="card-title">{name}</h3>
-    <p className="card-text">{(description[index])[0]}</p>
-    <p className="card-text">{(description[index])[1]}</p>
-    <p className="card-text">{(description[index])[2]}</p>
-    <div className="row justify-content-center">
-      <div className="col-5">
-          <a href={github[index]} target="_blank" style={{color: "inherit"}}>
-            <GitHubIcon className='icon1 bounce' sx={{ fontSize: 60 }} />
-          </a>
-      </div>
-      <div className="col-5">
-          <a href={deployed[index]} target="_blank" style={{color: "inherit"}}>
-            <LaunchIcon className='icon1 bounce' sx={{ fontSize: 60 }} />
-          </a>
-      </div>
-    </div>
-  </div>
-</div>)}
-
-
-
-
-      {projectNames.map((name, index) => 
-      <div key={index} className="col-12 col-md-9 col-lg-6">
-        <div className="column justify-content-center">
-          <div className='Terminal1 mx-5'>{name}</div>
-          <div className={`Terminal2 b${index} mx-5`}></div>
-          <div className='Terminal3 mx-5'>
+      {projectNames.map((name, index) =>
+      <div id='cardCustom' className="card col-10 col-lg-4 m-4 p-0">
+        <a href={github[index]} target="_blank"><img className="card-img-top" src={images[index]} alt="Card image cap"></img></a>
+        <div className="card-body">
+          <h3 className="card-title">{name}</h3>
+          <span className="card-text">{(description[index])[0]}</span><br></br>
+          <span className="card-text">{(description[index])[1]}</span><br></br>
+          <span className="card-text">{(description[index])[2]}</span><br></br>
           <div className="row justify-content-center">
-            <div className="col-4">
-                <a href={github[index]} target="_blank" style={{color: "inherit"}}>
-                  <GitHubIcon className='icon1 bounce' sx={{ fontSize: 60 }} />
+                <a href={github[index]} target="_blank" className='col-5 row justify-content-center'>
+                  <GitHubIcon className='col-5 icon1 bounce' sx={{ fontSize: 60 }} />
                 </a>
-            </div>
-            <div className="col-4">
-                <a href={deployed[index]} target="_blank" style={{color: "inherit"}}>
-                  <LaunchIcon className='icon1 bounce' sx={{ fontSize: 60 }} />
+                <a href={deployed[index]} target="_blank" className='col-5 row justify-content-center'>
+                  <LaunchIcon className='col-5 icon1 bounce' sx={{ fontSize: 60 }} />
                 </a>
-            </div>
-            </div>
           </div>
         </div>
       </div>)}

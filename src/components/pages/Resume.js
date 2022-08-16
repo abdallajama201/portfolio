@@ -9,7 +9,7 @@ export default function Resume() {
   return (
     <div>
       <div className="row justify-content-center my-5">
-        <a href="https://drive.google.com/file/d/1zjCy_Q8ztUBDELvTKex_P9m_AxsVOMet/view?usp=sharing" target="_blank" className='resume bounce col-3'>Resume</a>
+        <a href="https://drive.google.com/file/d/1zjCy_Q8ztUBDELvTKex_P9m_AxsVOMet/view?usp=sharing" target="_blank" id="resume" className='bounce col-3'>📄 Resume</a>
       </div>
       <div className="column justify-content-center">
         <div className='topTerminal col-7 mx-auto'>languages</div>
